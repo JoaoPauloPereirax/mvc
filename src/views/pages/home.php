@@ -7,5 +7,11 @@
 </head>
 <body>
        <?php $render('header'); ?>
+       <hr/>
+       
+       <a href="<?= $base ?>/new">Novo Usuário</a>
+
+       <hr/>
+       <?php $render('footer'); ?>
 </body>
 </html>
