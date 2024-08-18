@@ -1,5 +1,7 @@
 # MVC EM PHP (LISTA DE CONTATOS)
 
+<img src='./public/assets/images/tela.png' />
+
 ## Instalação
 Você pode clonar este repositório OU baixar o .zip
 
