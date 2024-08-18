@@ -50,7 +50,8 @@ class UsersController extends Controller {
     }
 
     public function del($args) {
-        echo "Excluindo: ".$args['id'];
+        User::delete()->where('id', $args['id'])->execute();
+        $this->redirect('/');
     }
 
 
